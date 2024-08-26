@@ -9,7 +9,7 @@ def get_access_token():
     }
     data = {
         "grant_type": "urn:ibm:params:oauth:grant-type:apikey",
-        "apikey": "joBfSRbSoL1deQkdETpcrUe-GLg5k6bg63_U9Xwb82NV"
+        "apikey": "api_key"
     }
     
     response = requests.post(url, headers=headers, data=data)
